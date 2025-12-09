@@ -36,7 +36,7 @@ Generates **short, natural responses** that match the detected personality style
 
 ## 📁 Project Structure
 ```
-├── src/
+├── chat_histories/
 │   ├── before_calm_mentor_chat.py         # Sample chat dataset for "Calm Mentor" personality.
 │   ├── before_therapist_style_chat.py     # Sample chat dataset for "Therapist-style" personality.
 │   └── before_witty_friend_chat.py        # Sample chat dataset for "Witty Friend" personality.
@@ -49,11 +49,11 @@ Generates **short, natural responses** that match the detected personality style
 │   │   └── llm.py                         # Wrapper functions for OpenAI API calls.
 │   ├── requests.py                        # Handles incoming request payloads.
 │   ├── routes.py                          # Defines FastAPI (or other framework) API endpoints.
-│   └── services.py                        # Core business logic connecting LLM, prompts, and utils.│
-├── .env.example                           # Example environment variables file.│
+│   └── services.py                        # Core business logic connecting LLM, prompts, and utils.
+├── .env.example                           # Example environment variables file.
 ├── .gitignore                             # Specifies files/folders to ignore in git (e.g., __pycache__, .env, logs).
-├── main.py                                # Entry point for the application.│
-├── README.md                              # Project documentation.│
+├── main.py                                # Entry point for the application.
+├── README.md                              # Project documentation.
 └── requirements.txt                       # Python dependencies (e.g., openai, fastapi, uvicorn, python-dotenv).
 ```
 
